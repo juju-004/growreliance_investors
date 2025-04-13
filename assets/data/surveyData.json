@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Farmer Information",
+    "inputs": [
+      { "label": "Name", "name": "name" },
+      { "label": "Location", "name": "location" },
+      { "label": "Farm Size (in acres or hectres)", "name": "size" },
+      { "label": "Phone", "name": "phone" }
+    ]
+  },
+  {
+    "title": "Crop Information",
+    "inputs": [
+      { "label": "Variety", "name": "variety" },
+      { "label": "Planting Data", "name": "planting" },
+      { "label": "Expected Harvest Data", "name": "harvestdata" },
+      { "label": "Current Growth stage", "name": "growth" },
+      {
+        "label": "Estimated Yield (tons or kilograms per hectre / acre)",
+        "name": "yield"
+      }
+    ]
+  },
+  {
+    "title": "Farming practices",
+    "inputs": [
+      { "label": "Irrigation method", "name": "irrigation" },
+      { "label": "Fertilizer used", "name": "fertilizer" },
+      { "label": "Pesticides used", "name": "pesticides" },
+      {
+        "label": "Methods",
+        "name": "methods",
+        "options": ["Organic", "Inorganic"]
+      }
+    ]
+  },
+  {
+    "title": "Challenges and issues",
+    "inputs": [
+      { "label": "Pests / Diseases", "name": "pests_diseases" },
+      {
+        "label": "Weather impact (e.g drought, floods)",
+        "name": "weather_impact"
+      },
+      {
+        "label": "Labor avialability",
+        "name": "labor_availability",
+        "options": ["1 - 10", "11 - 25", "25 & above"]
+      }
+    ]
+  },
+  {
+    "title": "Production Costs",
+    "inputs": [
+      { "label": "Input Costs", "name": "input" },
+      { "label": "Labor Costs", "name": "labor" },
+      { "label": "Transport Costs", "name": "transport" }
+    ]
+  },
+  {
+    "title": "Yield and production data",
+    "inputs": [
+      { "label": "Harvest Quantity", "name": "harvest_quantity" },
+      { "label": "Post harvest losses", "name": "post_harvest_losses" },
+      { "label": "Storage Facilities", "name": "storage_facilities" }
+    ]
+  },
+  {
+    "title": "Market Information",
+    "inputs": [
+      {
+        "label": "Current Selling Price",
+        "name": "current_selling_price"
+      },
+      {
+        "label": "Market Demand",
+        "name": "market_demand",
+        "options": ["low", "medium", "high"]
+      },
+      {
+        "label": "Primary Buyers (e.g local market, wholesalers, processors)",
+        "name": "primary_buyers"
+      }
+    ]
+  },
+  {
+    "title": "Consumer Information",
+    "inputs": [
+      {
+        "label": "Current Selling Price",
+        "name": "consumer_current_selling_price"
+      },
+      {
+        "label": "Market Demand",
+        "name": "consumer_market_demand",
+        "options": ["low", "medium", "high"]
+      },
+      {
+        "label": "Primary Buyers (e.g local market, wholesalers, processors)",
+        "name": "consumer_primary_buyers"
+      }
+    ]
+  }
+]
